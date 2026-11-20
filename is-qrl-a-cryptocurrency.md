@@ -6,7 +6,7 @@
 
 ## The short answer, in detail
 
-A cryptocurrency is a digital asset issued and moved by a blockchain's own rules. QRL meets that definition without qualification: the chain issues the coins through mining, validates transfers with its own consensus, and records every balance in its own state. The full description of the chain is in https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md.
+A cryptocurrency is a digital asset issued and moved by a blockchain's own rules. QRL meets that definition without qualification: the chain issues the coins through mining, validates transfers with its own consensus, and records every balance in its own state. The full description of the chain is in [What Is the QRL Quantum Resistant Ledger?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md).
 
 The distinction that matters most is coin versus token. A token is a contract entry inside somebody else's chain, and its existence depends on that chain continuing to run and on the contract not being changed. A coin on its own chain depends on nothing outside itself.
 
@@ -32,9 +32,9 @@ QRL exists in three places at once, and they are the same thing seen from differ
 
 The chain is authoritative. A wallet that shows a balance is reporting what the chain says, and an exchange balance is a promise to send coins when asked. Only the first two are yours in the sense that matters, which is why withdrawing to your own address is the standard step after a purchase.
 
-The coin trades on exchanges that choose to list it, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md covers the steps and the regional differences. There is no presale and no allocation run by the project. If a page offers to sell you coins at a fixed price, it is not the project; the card purchase built into the wallet is the one route the software itself provides.
+The coin trades on exchanges that choose to list it, and [How to Buy QRL Coin](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md) covers the steps and the regional differences. There is no presale and no allocation run by the project. If a page offers to sell you coins at a fixed price, it is not the project; the card purchase built into the wallet is the one route the software itself provides.
 
-On-chain, the supply is public. Anyone can add up balances, inspect the largest addresses, or check that the circulating figure quoted on a market site matches what the chain shows. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md explains how that circulating figure becomes a market cap. That transparency is a property of the asset, not a feature the project grants.
+On-chain, the supply is public. Anyone can add up balances, inspect the largest addresses, or check that the circulating figure quoted on a market site matches what the chain shows. [QRL Price and Market Cap Data](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md) explains how that circulating figure becomes a market cap. That transparency is a property of the asset, not a feature the project grants.
 
 ## What backs it
 
@@ -48,11 +48,11 @@ None of that makes the coin a safe investment. It makes it a functioning cryptoc
 
 ## How to check a balance yourself
 
-You do not have to trust a market site or a wallet display. A block explorer shows addresses, transactions and balances directly from the chain, and the numbers there are the ones that count; https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md describes what the explorer covers.
+You do not have to trust a market site or a wallet display. A block explorer shows addresses, transactions and balances directly from the chain, and the numbers there are the ones that count; [What Network Does QRL Use?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md) describes what the explorer covers.
 
 Start with your own address if you hold coins. Paste it into the explorer, confirm the balance and the transaction history, and note the address prefix: QRL addresses begin with Q. If a page asks for anything other than the address, it is not an explorer.
 
-For the wider picture, compare the circulating supply shown by the explorer against the figure on a price site. When they disagree, the chain is right and the price site is behind. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md explains why the maximum and circulating numbers differ.
+For the wider picture, compare the circulating supply shown by the explorer against the figure on a price site. When they disagree, the chain is right and the price site is behind. [QRL Token Supply Explained](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md) explains why the maximum and circulating numbers differ.
 
 If the balance is smaller than you expected, check whether the coins are still on an exchange. A custodial balance does not appear in your own address until you withdraw it, and that is the most common explanation for a missing balance.
 

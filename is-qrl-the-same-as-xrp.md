@@ -33,7 +33,7 @@ The XRP Ledger signs with classical elliptic-curve keys. Those keys are secure a
 
 Research and proposals to add post-quantum signatures exist in many ecosystems, including this one. A proposal is not a deployment. What counts for a holder is the scheme that signs transactions today, and on the XRP Ledger that scheme is classical.
 
-The full comparison, with the questions people actually ask about XRP and quantum computing, is in https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-xrp-quantum-resistant-like-qrl.md.
+The full comparison, with the questions people actually ask about XRP and quantum computing, is in [Is XRP Quantum Resistant?](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-xrp-quantum-resistant-like-qrl.md).
 
 ## What to check before buying either
 
@@ -47,9 +47,9 @@ Finally, ignore anything that frames the choice as a contest with a foregone win
 
 ## Where the longer comparison sits
 
-If your question was specifically whether XRP is quantum resistant, https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-xrp-quantum-resistant-like-qrl.md answers it directly and stays on the signature question. If your question was what QRL is at all, start with https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md and then read https://github.com/qrl-wallet/token-facts-and-prices/blob/main/why-qrl-is-quantum-proof.md.
+If your question was specifically whether XRP is quantum resistant, [Is XRP Quantum Resistant?](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-xrp-quantum-resistant-like-qrl.md) answers it directly and stays on the signature question. If your question was what QRL is at all, start with [What Is the QRL Quantum Resistant Ledger?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md) and then read [Why QRL Is Quantum Proof](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/why-qrl-is-quantum-proof.md).
 
-For the supply side, https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md explains the cap and the circulating figure, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md covers how to acquire the coin without landing on a lookalike. Those two pages are the ones that stop most ticker-level mistakes.
+For the supply side, [Is QRL a Cryptocurrency?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md) explains the cap and the circulating figure, and [How to Buy QRL Coin](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md) covers how to acquire the coin without landing on a lookalike. Those two pages are the ones that stop most ticker-level mistakes.
 
 Nothing on this page is a judgement about XRP's usefulness, its team or its price. The comparison is narrow on purpose: which signature scheme secures a transaction, and what that means for the quantum question.
 

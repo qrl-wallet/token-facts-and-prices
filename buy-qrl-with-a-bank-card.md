@@ -36,7 +36,7 @@ Check the provider's own status and limits page, then contact its support with t
 
 Do not send the same purchase again through a second provider until you know the first did not complete. Two completed purchases are two purchases, and the coins arrive twice.
 
-If the payment succeeded and the coins have not appeared, check the delivery address on the provider's confirmation against your wallet, and check whether the wallet is synced to the chain. https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/understanding-qrl-transaction-fees.md explains why a delivered transaction still needs a synced wallet to show up.
+If the payment succeeded and the coins have not appeared, check the delivery address on the provider's confirmation against your wallet, and check whether the wallet is synced to the chain. [Understanding QRL Transaction Fees](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/understanding-qrl-transaction-fees.md) explains why a delivered transaction still needs a synced wallet to show up.
 
 ## KYC and what it means
 
@@ -50,7 +50,7 @@ Buying on an exchange goes further, because the exchange holds the balance as we
 
 If the coins land on an exchange, withdraw them to an address you control when you are ready to hold rather than trade. That means creating a wallet, backing up the phrase before it holds anything, and testing with a small withdrawal first.
 
-https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/create-your-first-qrl-address.md covers the sequence, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md covers the checks that the withdrawal is going to the right network: ticker QRL, mainnet, and an address beginning with Q.
+[Create Your First QRL Address](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/create-your-first-qrl-address.md) covers the sequence, and [How to Buy QRL Coin](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md) covers the checks that the withdrawal is going to the right network: ticker QRL, mainnet, and an address beginning with Q.
 
 For a first purchase, the test withdrawal is worth more than the fee it costs. It proves the address you saved is the address you meant, while the amount at risk is small.
 
@@ -58,7 +58,7 @@ For a first purchase, the test withdrawal is worth more than the fee it costs. I
 
 It does not promise availability. A provider can stop serving a country, refuse a card type, or change its limits without notice, and none of that is something the project controls.
 
-It does not promise a price either. The quote you see includes the provider's spread, and it is the price you pay for that purchase, not the market price on a chart. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md explains the difference between the two, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md covers the pages that turn a purchase into a promise of profit.
+It does not promise a price either. The quote you see includes the provider's spread, and it is the price you pay for that purchase, not the market price on a chart. [QRL Price and Market Cap Data](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md) explains the difference between the two, and [Avoid QRL Price Prediction Scams](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md) covers the pages that turn a purchase into a promise of profit.
 
 ## FAQ
 

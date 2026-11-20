@@ -18,7 +18,7 @@ Two acronyms do the work: QFS and QRL. They are different strings with different
 
 QRL stands for Quantum Resistant Ledger, which is the name of a blockchain project that signs transactions with hash-based cryptography. QFS is not a product of that project, not a feature of it and not a partner of it.
 
-The confusion is helped by the fact that both phrases contain "quantum" and both sound like infrastructure. A reader who meets the narrative first, then searches for quantum-resistant projects, can easily conclude the two are connected. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-does-qrl-stand-for.md covers the name and its other meanings.
+The confusion is helped by the fact that both phrases contain "quantum" and both sound like infrastructure. A reader who meets the narrative first, then searches for quantum-resistant projects, can easily conclude the two are connected. [What Does QRL Stand For?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-does-qrl-stand-for.md) covers the name and its other meanings.
 
 ## What QRL actually is
 
@@ -26,7 +26,7 @@ QRL is an independent layer-1 blockchain, launched in 2018, secured by proof of 
 
 It has no relationship with any government, central bank or settlement system. It does not process bank payments, does not hold customer funds, and does not issue anything to a person who registers.
 
-Its cryptography is public and has been reviewed by external firms, which is the opposite of a secret system. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md covers what the project is, and https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-wallet-safe-to-use.md covers its security model.
+Its cryptography is public and has been reviewed by external firms, which is the opposite of a secret system. [What Is the QRL Quantum Resistant Ledger?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md) covers what the project is, and [Is the QRL Wallet Safe to Use?](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-wallet-safe-to-use.md) covers its security model.
 
 ## The patterns of the scam
 
@@ -40,7 +40,7 @@ The third is the private group with a countdown. Urgency is the mechanism, and t
 
 The fourth is the recovery offer, arriving after someone posts about a loss. Nobody can restore a QRL wallet without the phrase or the file and its password, and an offer to do so is an attempt to take more.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md covers how these pitches are constructed, and the common thread is that all of them require value to move before anything is delivered.
+[Avoid QRL Price Prediction Scams](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md) covers how these pitches are constructed, and the common thread is that all of them require value to move before anything is delivered.
 
 ## What to do if you were asked to pay
 
@@ -50,7 +50,7 @@ If you shared a recovery phrase, treat the wallet as compromised and move any re
 
 If you sent money, keep the messages and the payment references, report the account to the platform that hosted it, and report the payment to your bank and to the fraud authority in your country. A report with a transaction hash and a screenshot is actionable; a general complaint is not.
 
-If nothing was sent, the useful step is to tell whoever introduced you to the claim that it is false, and to point them at https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-the-same-as-xrp.md if the confusion is about which project is which.
+If nothing was sent, the useful step is to tell whoever introduced you to the claim that it is false, and to point them at [the QRL vs XRP comparison](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-the-same-as-xrp.md) if the confusion is about which project is which.
 
 ## Why the story persists
 

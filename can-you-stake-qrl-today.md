@@ -12,7 +12,7 @@ There is no place in that design for a staker. No contract holds your coins, no 
 
 That makes any offer to stake QRL today a claim about something that does not exist on this chain. It may be a product on another network, a token with a similar name, or a scheme that pays earlier participants with later deposits; none of those is staking QRL.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-mine-qrl.md covers what does secure the chain, including the algorithm and the hardware it runs on.
+[Can You Mine QRL?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-mine-qrl.md) covers what does secure the chain, including the algorithm and the hardware it runs on.
 
 ## What Zond changes
 
@@ -20,7 +20,7 @@ Project Zond is the successor workstream, and its design is proof of stake. That
 
 Zond is also EVM-compatible and uses ML-DSA signatures, which are lattice-based rather than hash-based. Those choices are documented as the design of a separate network, not as changes to the chain you can use today.
 
-The distinction to hold is between a design and a deployment. A proof-of-stake design implies validators, and validators imply staking; none of that exists until the network it belongs to is live. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-project-zond-for-qrl.md covers what the workstream is.
+The distinction to hold is between a design and a deployment. A proof-of-stake design implies validators, and validators imply staking; none of that exists until the network it belongs to is live. [What Is Project Zond for QRL?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-project-zond-for-qrl.md) covers what the workstream is.
 
 ## Testnet is not yield
 
@@ -40,13 +40,13 @@ The second is a deposit address rather than a contract or a validator. Legitimat
 
 The third is urgency. A closing window, a limited allocation, a bonus for the first hundred participants: each is a way to compress the time you have to think.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md covers how these pitches are built, and the rule for this one is simple: if a chain has no staking, an offer to stake its coin is not about the chain.
+[Avoid QRL Price Prediction Scams](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md) covers how these pitches are built, and the rule for this one is simple: if a chain has no staking, an offer to stake its coin is not about the chain.
 
 ## Where to follow it
 
 Progress on Zond appears in the project's repositories and documentation, and the release history of the wallet shows what has actually shipped. Those are checkable sources; a social post is not.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-the-qrl-project-still-active.md covers how to check activity in a few minutes, including the parts of the record that are easy to verify and the parts that require trusting a summary.
+[Is the QRL Project Still Active?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-the-qrl-project-still-active.md) covers how to check activity in a few minutes, including the parts of the record that are easy to verify and the parts that require trusting a summary.
 
 What none of those sources provides is a date. The project has not published a mainnet date for Zond, and a page that supplies one is supplying something it does not have.
 
@@ -56,7 +56,7 @@ If you hold QRL expecting a yield, there is none on this chain. The balance earn
 
 That is not a defect to work around; it is what proof of work means. A chain that pays you for holding would be paying you from somewhere, and on a proof-of-work chain with a fixed cap the only source of new coins is block issuance.
 
-For a holder, the useful questions are about custody rather than yield: is the phrase backed up, is the address's signature count healthy, and is the wallet on the current release. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md covers the network's design in more detail.
+For a holder, the useful questions are about custody rather than yield: is the phrase backed up, is the address's signature count healthy, and is the wallet on the current release. [What Network Does QRL Use?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md) covers the network's design in more detail.
 
 ## FAQ
 

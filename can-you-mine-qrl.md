@@ -8,7 +8,7 @@
 
 Miners propose blocks, and the network accepts the chain with the most accumulated work behind it. The reward for a valid block is new QRL plus the fees of the transactions it includes, which is how new coins enter circulation.
 
-Consensus is proof of work today. That detail matters for two reasons: it means mining is the way new supply is issued, and it means there is no staking on this chain, which https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-stake-qrl-today.md covers.
+Consensus is proof of work today. That detail matters for two reasons: it means mining is the way new supply is issued, and it means there is no staking on this chain, which is the question [Can You Stake QRL Today?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-stake-qrl-today.md) answers.
 
 The algorithm is RandomX, chosen because it runs well on the processors people already own. The design goal is that a machine built for general computing is competitive, rather than being outclassed by an application-specific chip.
 
@@ -36,13 +36,13 @@ This page will not quote a profit figure, because any figure would depend on you
 
 The honest way to work it out is arithmetic you do yourself: power draw in watts, hours in a month, your tariff, and the expected share of the network's reward. If the result is close to break-even, it is sensitive to every input.
 
-Transaction fees are the other half of a block reward, and they are small relative to the issuance. https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/understanding-qrl-transaction-fees.md explains how a fee is attached to a transaction, which is also the fee your own spends will pay.
+Transaction fees are the other half of a block reward, and they are small relative to the issuance. [Understanding QRL Transaction Fees](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/understanding-qrl-transaction-fees.md) explains how a fee is attached to a transaction, which is also the fee your own spends will pay.
 
 ## Mining to a wallet address
 
 Rewards are paid to an address, and the address has to be yours. That means creating a wallet first, backing up the phrase before it holds anything, and using the address the wallet gives you.
 
-https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/create-your-first-qrl-address.md covers that sequence. The point worth repeating is that mining income is still income at an address: if the phrase is lost, the coins are lost, and a pool payout does not change that.
+[Create Your First QRL Address](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/create-your-first-qrl-address.md) covers that sequence. The point worth repeating is that mining income is still income at an address: if the phrase is lost, the coins are lost, and a pool payout does not change that.
 
 Mining does not consume the address's one-time keys, because receiving does not sign anything. Spending the reward does, which is why an address used for mining income still has its full signature count until you move the coins.
 
@@ -50,7 +50,7 @@ Mining does not consume the address's one-time keys, because receiving does not 
 
 Miners secure the chain. The work is what makes rewriting history expensive, and the distribution of mining across many independent machines is part of what that security rests on.
 
-That is also why the algorithm choice is a security question rather than a hobbyist convenience. An algorithm that only specialised hardware can run concentrates block production; one designed for ordinary processors keeps participation broader. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md covers the network's design, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md covers how mining relates to the supply cap.
+That is also why the algorithm choice is a security question rather than a hobbyist convenience. An algorithm that only specialised hardware can run concentrates block production; one designed for ordinary processors keeps participation broader. [What Network Does QRL Use?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md) covers the network's design, and [QRL Token Supply Explained](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md) covers how mining relates to the supply cap.
 
 ## Mining other coins is a different question
 

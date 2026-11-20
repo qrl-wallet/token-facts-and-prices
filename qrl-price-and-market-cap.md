@@ -26,7 +26,7 @@ QRL has a fixed maximum supply of 105,000,000 coins, and roughly 79.5 million ar
 
 Which figure a site uses changes the market cap it reports. Multiplying the price by 105 million rather than 79.5 million produces a cap about a third larger for the same price, and some sites do exactly that while labelling it the same way.
 
-When two caps disagree, check the supply figure before assuming a price difference. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md covers the cap, the emission and where to verify the numbers on-chain.
+When two caps disagree, check the supply figure before assuming a price difference. [QRL Token Supply Explained](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md) covers the cap, the emission and where to verify the numbers on-chain.
 
 ## Why sites disagree
 
@@ -42,7 +42,7 @@ It does not tell you what the asset will be worth, and no page that shows a pric
 
 It also does not tell you what you would receive if you sold. That depends on the depth of the market at the moment you sell, which is why a thin market can show a price you cannot actually get.
 
-For those questions the sources are elsewhere: the repository for the software, a block explorer for the chain, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-rich-list-explained.md for what the distribution of balances can and cannot show.
+For those questions the sources are elsewhere: the repository for the software, a block explorer for the chain, and [QRL Rich List Explained](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-rich-list-explained.md) for what the distribution of balances can and cannot show.
 
 ## What a price does not measure
 
@@ -54,9 +54,9 @@ That is why a holder's realised value differs from a quoted one. The number on a
 
 Three habits cover most of it. Name the venue when you quote a price. Check the supply figure behind a market cap. And treat any single number as a snapshot rather than a fact about the asset.
 
-If a page offers a price and a prediction in the same breath, the prediction is the part to discard. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md covers how those pages are built, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-to-usd-price-chart.md covers what a chart's axes and volume actually show.
+If a page offers a price and a prediction in the same breath, the prediction is the part to discard. [Avoid QRL Price Prediction Scams](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md) covers how those pages are built, and [QRL to USD: Reading the Price Chart](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-to-usd-price-chart.md) covers what a chart's axes and volume actually show.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md covers the practical side: what to check before paying, and why the quote you pay includes a spread that the market price does not.
+[How to Buy QRL Coin](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md) covers the practical side: what to check before paying, and why the quote you pay includes a spread that the market price does not.
 
 ## FAQ
 

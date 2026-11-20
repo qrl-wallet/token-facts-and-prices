@@ -28,7 +28,7 @@ Nobody can recover a QRL wallet without the phrase or the wallet file and its pa
 
 The same applies to "support" that opens a chat and asks you to share your screen, install a remote-access tool, or type your phrase into a form. All three are ways to take the keys, and the phrase is the only thing they need.
 
-https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-wallet-safe-to-use.md covers the habits that keep a wallet intact, and the rule that matters most is short: nobody legitimate ever needs your phrase.
+[Is the QRL Wallet Safe to Use?](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-wallet-safe-to-use.md) covers the habits that keep a wallet intact, and the rule that matters most is short: nobody legitimate ever needs your phrase.
 
 ## What real information looks like
 
@@ -36,19 +36,19 @@ Real information is boring and checkable. A price with a venue and a time. A sup
 
 It is also willing to say "I do not know". Anyone who cannot admit uncertainty about a market is either selling something or repeating someone who is.
 
-For QRL specifically, the verifiable sources are the repository for software, a block explorer for the chain, and the project's documentation for behaviour. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md explains where a price actually comes from, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-to-usd-price-chart.md covers what a chart can and cannot show.
+For QRL specifically, the verifiable sources are the repository for software, a block explorer for the chain, and the project's documentation for behaviour. [QRL Price and Market Cap Data](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md) explains where a price actually comes from, and [QRL to USD: Reading the Price Chart](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-to-usd-price-chart.md) covers what a chart can and cannot show.
 
 ## The QFS rumour as a sales hook
 
 One recurring pitch borrows a conspiracy theory: that QRL is tied to an imagined global financial reset, and that holding it will be rewarded when the system changes. It is false, and it is used because it converts a boring asset into a story with a deadline.
 
-QRL is an independent open-source blockchain with no connection to any such scheme. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-connected-to-the-qfs-theory.md sets out the evidence, and the short version is that the resemblance is in the letters.
+QRL is an independent open-source blockchain with no connection to any such scheme. [Is QRL Connected to the QFS Theory?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-connected-to-the-qfs-theory.md) sets out the evidence, and the short version is that the resemblance is in the letters.
 
 Someone using that story to sell you coins, a course or a membership is not confused about the project. They are using it.
 
 ## Buying without being sold to
 
-If you decide to buy, buy through a venue you chose rather than one that found you. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md covers what to check before paying: the ticker, the network, the withdrawal address, and the fact that the project does not sell coins.
+If you decide to buy, buy through a venue you chose rather than one that found you. [How to Buy QRL Coin](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md) covers what to check before paying: the ticker, the network, the withdrawal address, and the fact that the project does not sell coins.
 
 The pattern to avoid is the inbound offer. A direct message, an advertisement promising returns, a group that requires a deposit to join, or a "manager" who will trade for you. None of those is how an asset is bought; all of them are how a balance is lost.
 
