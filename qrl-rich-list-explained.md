@@ -39,9 +39,9 @@ For QRL specifically, the practical implication is that a rich list cannot tell 
 
 It cannot tell you who owns an address, where they live, or whether they are buying or selling. It cannot tell you whether a balance is spendable, pledged, lost, or held by a service that owes it to somebody else.
 
-It cannot tell you anything about price. A large balance moving does not mean a sale, and a sale does not have to touch a visible address at all. Pages that read price direction from rich-list changes are guessing, which is why https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md separates the data from the commentary.
+It cannot tell you anything about price. A large balance moving does not mean a sale, and a sale does not have to touch a visible address at all. Pages that read price direction from rich-list changes are guessing, which is why [QRL Price and Market Cap Data](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md) separates the data from the commentary.
 
-It also cannot tell you whether an address is secure. Keys can be lost while the balance remains visible, and a wallet that has never been backed up still shows up in the ranking. https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-wallet-safe-to-use.md covers what visibility does not prove. Visibility is not control.
+It also cannot tell you whether an address is secure. Keys can be lost while the balance remains visible, and a wallet that has never been backed up still shows up in the ranking. [Is the QRL Wallet Safe to Use?](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-wallet-safe-to-use.md) covers what visibility does not prove. Visibility is not control.
 
 ## How to check your own address
 
@@ -49,9 +49,9 @@ Paste your address into a QRL block explorer. QRL addresses begin with Q, and th
 
 You will see the balance and the transaction history. The transaction count is not the same as the signatures used: receiving does not consume a key, so an address can take hundreds of payments and still have its full count available. For the remaining count, the wallet is the place to look, because it tracks the index.
 
-If you are checking whether a payment arrived, the explorer is the reference and the wallet display is the convenience, as https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/receive-qrl-in-your-wallet.md explains. If the two disagree, trust the chain, then let the wallet resync.
+If you are checking whether a payment arrived, the explorer is the reference and the wallet display is the convenience, as [Receive QRL in Your Wallet](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/receive-qrl-in-your-wallet.md) explains. If the two disagree, trust the chain, then let the wallet resync.
 
-For the wider context, https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md shows why the circulating figure differs from the fixed cap, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md explains addresses and the explorer in more detail. Both are shorter than this page and answer the questions that usually follow a first look at a rich list.
+For the wider context, [QRL Token Supply Explained](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md) shows why the circulating figure differs from the fixed cap, and [What Network Does QRL Use?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md) explains addresses and the explorer in more detail. Both are shorter than this page and answer the questions that usually follow a first look at a rich list.
 
 ## FAQ
 

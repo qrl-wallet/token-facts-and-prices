@@ -42,9 +42,9 @@ It cannot tell you why a move happened. A price fall in a thin market may reflec
 
 It cannot tell you what will happen next. Patterns have names because people like naming them, not because they predict. A chart that appears to show a shape repeating is a description of the past.
 
-And it cannot tell you whether the network is healthy or the software works. For that the sources are the repository and a block explorer, not a price series. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-rich-list-explained.md covers what the distribution of balances can and cannot show, which is a different question from what a price series shows.
+And it cannot tell you whether the network is healthy or the software works. For that the sources are the repository and a block explorer, not a price series. [QRL Rich List Explained](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-rich-list-explained.md) covers what the distribution of balances can and cannot show, which is a different question from what a price series shows.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md explains where the number behind the chart comes from, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md covers the supply figure that turns a price into a market cap.
+[QRL Price and Market Cap Data](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md) explains where the number behind the chart comes from, and [QRL Token Supply Explained](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-token-supply-explained.md) covers the supply figure that turns a price into a market cap.
 
 ## Reading responsibly
 
@@ -52,9 +52,9 @@ Three habits. Read the volume before the price. Note the time frame and the venu
 
 One more check is worth making: whether the venue the chart draws from is a market you could actually trade on. A price from an exchange you cannot access is information about that exchange, not about your own options.
 
-If a chart arrives with an arrow drawn on it and a number at the end, the arrow is the product. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md covers how those pages are built.
+If a chart arrives with an arrow drawn on it and a number at the end, the arrow is the product. [Avoid QRL Price Prediction Scams](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/avoid-qrl-price-prediction-scams.md) covers how those pages are built.
 
-For a buyer, the useful question is not where the line goes next but what price you would actually pay, including the spread, which https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md covers along with the checks that keep a purchase from going to the wrong address.
+For a buyer, the useful question is not where the line goes next but what price you would actually pay, including the spread; [How to Buy QRL Coin](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/how-to-buy-qrl-coin.md) covers that, along with the checks that keep a purchase from going to the wrong address.
 
 ## FAQ
 

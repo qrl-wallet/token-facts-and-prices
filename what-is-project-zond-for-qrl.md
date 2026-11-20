@@ -16,7 +16,7 @@ That distinction is the one most confusion comes from. A question about Zond is 
 
 Three changes define the design.
 
-Consensus moves from proof of work to proof of stake, which replaces mining with validators and changes what secures the chain. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-stake-qrl-today.md covers what that implies, including the fact that staking does not exist on the current chain.
+Consensus moves from proof of work to proof of stake, which replaces mining with validators and changes what secures the chain. [Can You Stake QRL Today?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-stake-qrl-today.md) covers what that implies, including the fact that staking does not exist on the current chain.
 
 Execution becomes EVM-compatible, which means contracts and tooling written for Ethereum's virtual machine are intended to run there. That is a large practical difference: it opens a tooling ecosystem that QRL's current chain does not share.
 
@@ -36,7 +36,7 @@ There is no mainnet date. The project has not published one, and a page that sup
 
 There is no migration promise. Nothing in the published material says that QRL coins convert one for one, that a snapshot will happen, or that holding today entitles you to anything on a future network. Treat any such claim, particularly from an account asking for a deposit, as unverified at best.
 
-And the wallet's release series is separate. Zond is not a version of the desktop wallet, and a release note for the wallet is not an announcement about Zond. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-the-qrl-project-still-active.md covers how to read the release history without conflating the two.
+And the wallet's release series is separate. Zond is not a version of the desktop wallet, and a release note for the wallet is not an announcement about Zond. [Is the QRL Project Still Active?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-the-qrl-project-still-active.md) covers how to read the release history without conflating the two.
 
 ## Testnet status
 
@@ -52,7 +52,7 @@ QRL's current signatures are hash-based, which is what makes them resistant to S
 
 For a user the practical differences are in key and signature sizes, verification cost, and the tooling that supports them. For the network, the change buys compatibility with an ecosystem that is already building around lattice-based schemes.
 
-https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/how-qrl-xmss-signatures-work.md explains the scheme in use today, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/why-qrl-is-quantum-proof.md covers why hash-based signatures were chosen for the first chain.
+[How XMSS Signatures Work](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/how-qrl-xmss-signatures-work.md) explains the scheme in use today, and [Why QRL Is Quantum Proof](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/why-qrl-is-quantum-proof.md) covers why hash-based signatures were chosen for the first chain.
 
 ## How to follow progress
 
@@ -60,7 +60,7 @@ The project's repositories are the primary record: commits, releases and issues 
 
 What those sources do not provide is a schedule. A design document can describe a network in detail without implying when it will be live, and in Zond's case that is exactly the situation.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md covers the network you can use today, which is the one that holds value and the one the wallet connects to.
+[What Network Does QRL Use?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md) covers the network you can use today, which is the one that holds value and the one the wallet connects to.
 
 ## FAQ
 

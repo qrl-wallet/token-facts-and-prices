@@ -26,7 +26,7 @@ New coins enter as block rewards. A miner proposes a block, the network accepts 
 
 That mechanism ties issuance to security: the reward is what pays for the work that secures the chain. It also means the supply is auditable on-chain, because every issuance is a transaction with a block behind it.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-mine-qrl.md covers the algorithm and the hardware, including the fact that RandomX is designed for ordinary processors.
+[Can You Mine QRL?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-mine-qrl.md) covers the algorithm and the hardware, including the fact that RandomX is designed for ordinary processors.
 
 ## Where to verify supply
 
@@ -40,7 +40,7 @@ Market capitalisation is arithmetic: price multiplied by circulating supply. Wit
 
 Both calculations appear in the wild, labelled the same way. When two sites disagree about a cap, check the supply first: the difference is usually there rather than in the price.
 
-The measure itself is a shorthand for size, not a record of money invested. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md covers that distinction and why a thin market can move a cap without any money entering the network.
+The measure itself is a shorthand for size, not a record of money invested. [QRL Price and Market Cap Data](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-price-and-market-cap.md) covers that distinction and why a thin market can move a cap without any money entering the network.
 
 ## Why the cap is credible
 
@@ -54,9 +54,9 @@ That predictability is why the two numbers on this page are worth quoting separa
 
 A total tells you how many coins exist. It does not tell you who holds them, and the distribution is a separate question with its own limits: an address can belong to an exchange holding thousands of customers' coins. A total also says nothing about how many people hold the coins, which is the question most readers actually have.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-rich-list-explained.md covers what a rich list can and cannot show. The short version is that concentration measured by address overstates concentration by holder, because custodial addresses aggregate balances that belong to many people.
+[QRL Rich List Explained](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/qrl-rich-list-explained.md) covers what a rich list can and cannot show. The short version is that concentration measured by address overstates concentration by holder, because custodial addresses aggregate balances that belong to many people.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md covers the coin's status as an independent asset rather than a token on another chain, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md covers the project itself.
+[Is QRL a Cryptocurrency?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md) covers the coin's status as an independent asset rather than a token on another chain, and [What Is the QRL Quantum Resistant Ledger?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md) covers the project itself.
 
 ## FAQ
 

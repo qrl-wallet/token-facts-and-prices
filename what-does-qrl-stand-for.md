@@ -38,11 +38,11 @@ The safest route is to start from the project's own documentation and wallet rat
 
 ## How to tell the project apart
 
-The identity markers are stable and easy to check. https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md sets out what the project is, https://github.com/qrl-wallet/token-facts-and-prices/blob/main/who-created-the-qrl-network.md covers where it came from, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/why-qrl-is-quantum-proof.md explains the signature choice. The wallet is open source under the MIT licence, and the current release is published on the project's GitHub releases page.
+The identity markers are stable and easy to check. [What Is the QRL Quantum Resistant Ledger?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md) sets out what the project is, [Who Created the QRL Network?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/who-created-the-qrl-network.md) covers where it came from, and [Why QRL Is Quantum Proof](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/why-qrl-is-quantum-proof.md) explains the signature choice. The wallet is open source under the MIT licence, and the current release is published on the project's GitHub releases page.
 
 The coin is not sold by the project, so a page offering a direct sale, a presale or an allocation the project promises is not this project. The project also does not run a staking product on the current chain, because consensus is proof of work.
 
-If you want the fuller answer to what the asset is, https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md covers the coin-versus-token question, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md covers addresses and the explorer. Both are short, and both keep the same three letters in view.
+If you want the fuller answer to what the asset is, [Is QRL a Cryptocurrency?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md) covers the coin-versus-token question, and [What Network Does QRL Use?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md) covers addresses and the explorer. Both are short, and both keep the same three letters in view.
 
 ## FAQ
 

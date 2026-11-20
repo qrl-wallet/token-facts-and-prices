@@ -16,7 +16,7 @@ The distinction matters practically. A token on Ethereum moves when an Ethereum 
 
 Blocks are produced by proof of work using RandomX, an algorithm designed for general-purpose processors rather than specialised hardware. Miners compete to extend the chain, and the chain with the most accumulated work is the one nodes accept.
 
-Proof of work has consequences a reader should know. There is no staking on this chain, because staking belongs to proof-of-stake consensus. New coins are issued as block rewards. And mining is the activity that secures the network, which is why https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-mine-qrl.md covers the hardware and the economics.
+Proof of work has consequences a reader should know. There is no staking on this chain, because staking belongs to proof-of-stake consensus. New coins are issued as block rewards. And mining is the activity that secures the network, which is why [Can You Mine QRL?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/can-you-mine-qrl.md) covers the hardware and the economics.
 
 The algorithm choice is not cosmetic. RandomX is memory-hard and awkward to accelerate with custom silicon, which keeps participation within reach of ordinary machines.
 
@@ -26,7 +26,7 @@ QRL addresses begin with Q. The prefix is part of the encoding rather than a lab
 
 Behind an address is a hash-based key with a finite number of one-time signatures, 1,024 at the default tree height. That is the property the whole design exists for: a spend is authorised by a signature that does not rest on elliptic-curve mathematics.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md covers why the asset is a coin rather than a token, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md covers the project.
+[Is QRL a Cryptocurrency?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-qrl-a-cryptocurrency.md) covers why the asset is a coin rather than a token, and [What Is the QRL Quantum Resistant Ledger?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md) covers the project.
 
 ## The block explorer
 
@@ -38,7 +38,7 @@ What the explorer cannot do is tell you who owns an address. Balances are public
 
 ## Receiving and sending on this network
 
-Receiving is passive: the address and its QR code are enough, and receiving does not consume a signature. https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/receive-qrl-in-your-wallet.md covers that side, including what to check when a balance has not appeared.
+Receiving is passive: the address and its QR code are enough, and receiving does not consume a signature. [Receive QRL in Your Wallet](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/receive-qrl-in-your-wallet.md) covers that side, including what to check when a balance has not appeared.
 
 Sending consumes a one-time key, which is why the wallet shows the remaining count and why running two copies of one wallet is dangerous. The transaction carries a fee, calculated in the smallest unit, and confirmed by nodes rather than by a company.
 
@@ -50,7 +50,7 @@ Project Zond is a separate network, not a version of this one. Its design is EVM
 
 That means two things a reader should hold apart. Zond does not carry QRL balances, and nothing published says it will. And a change described for Zond is not a change to the chain your wallet connects to.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-project-zond-for-qrl.md covers the workstream in detail, including the parts of its design that differ from the chain in use today.
+[What Is Project Zond for QRL?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-project-zond-for-qrl.md) covers the workstream in detail, including the parts of its design that differ from the chain in use today.
 
 ## What QRL is not
 

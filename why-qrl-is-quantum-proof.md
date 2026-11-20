@@ -20,7 +20,7 @@ Hash-based signatures rest on a different assumption. There is no algebraic stru
 
 Grover's algorithm does apply to hashes, and it gives a quadratic speedup for search. That is why hash lengths are chosen with margin, and why the usual estimate is that a 256-bit hash retains roughly the security of a 128-bit one against it. That is a margin question, not a break.
 
-https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/how-qrl-xmss-signatures-work.md covers the construction, including the tree and the authentication path.
+[How XMSS Signatures Work](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/how-qrl-xmss-signatures-work.md) covers the construction, including the tree and the authentication path.
 
 ## The 1,024-signature limit and what it costs
 
@@ -30,13 +30,13 @@ That is the price of the design, and it is not hidden. The wallet tracks the ind
 
 The limit changes a holder's routine in three ways. Receiving is free and unlimited, because receiving does not sign. Spending consumes a key, so a long-held balance eventually needs a move to a fresh address. And restoring an old wallet file restores an old index, which is why an old backup is a way to recover funds rather than a way to keep using an address.
 
-https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/how-many-qrl-ots-keys-remain.md covers reading the count, and the move to a fresh address resets capacity because the tree belongs to the address.
+[How Many QRL OTS Keys Remain?](https://github.com/qrl-wallet/wallet-setup-and-repair/blob/main/how-many-qrl-ots-keys-remain.md) covers reading the count, and the move to a fresh address resets capacity because the tree belongs to the address.
 
 ## What is not yet post-quantum
 
 QRL's signatures are post-quantum. Its peer-to-peer layer is not: node identity and transport key exchange are still classical, with post-quantum key establishment in development.
 
-That is a real limitation and it belongs in an honest answer. It means an attacker with a quantum capability could, in principle, attack the transport between nodes even though it could not forge a spend. The two are different surfaces, and https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-p2p-layer-quantum-safe.md treats the transport on its own terms.
+That is a real limitation and it belongs in an honest answer. It means an attacker with a quantum capability could, in principle, attack the transport between nodes even though it could not forge a spend. The two are different surfaces, and [Is the QRL P2P Layer Quantum Safe?](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/is-qrl-p2p-layer-quantum-safe.md) treats the transport on its own terms.
 
 Nothing about that caveat weakens the signature claim. It does mean the phrase "the network is post-quantum" is false, while "the signatures are" is true.
 
@@ -52,9 +52,9 @@ The defensible statement is this: QRL's signatures rest on hash functions, hash 
 
 Several projects describe themselves as quantum resistant, and the phrase covers a range: a live post-quantum scheme, a component with a narrow scope, a design in development, or marketing attached to a classical chain.
 
-The test does not change. Find the scheme in the specification, find a transaction that uses it, and find out when it entered the signing path. https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/quantum-resistant-cryptocurrency-list-with-qrl.md sets out that test, and https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/can-quantum-computers-break-bitcoin-and-qrl.md explains what a quantum machine would do to a chain that signs with curves.
+The test does not change. Find the scheme in the specification, find a transaction that uses it, and find out when it entered the signing path. [Quantum Resistant Cryptocurrency: The List](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/quantum-resistant-cryptocurrency-list-with-qrl.md) sets out that test, and [Can Quantum Computers Break Bitcoin?](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/can-quantum-computers-break-bitcoin-and-qrl.md) explains what a quantum machine would do to a chain that signs with curves.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md covers the project, and the audits' scope is the subject of its own page, because a review is only as strong as what it examined.
+[What Is the QRL Quantum Resistant Ledger?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md) covers the project, and the audits' scope is the subject of its own page, because a review is only as strong as what it examined.
 
 ## FAQ
 

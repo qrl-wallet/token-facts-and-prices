@@ -18,7 +18,7 @@ The design documents set out the consensus, the signature scheme and the monetar
 
 The signature choice is the part that defines the project. XMSS is standardised in RFC 8391 and profiled by NIST in SP 800-208, which means the scheme was not invented for the occasion: it is a published construction with a specification others can audit against.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/why-qrl-is-quantum-proof.md covers the reasoning, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md covers the network's architecture.
+[Why QRL Is Quantum Proof](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/why-qrl-is-quantum-proof.md) covers the reasoning, and [What Network Does QRL Use?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-network-does-qrl-use.md) covers the network's architecture.
 
 ## The gap between design and launch
 
@@ -42,7 +42,7 @@ Four checks take a few minutes and need no trust in a summary.
 
 Look at the release history in the wallet repository, and note the date of the most recent release. Look at the commit history, which shows work between releases. Look at the audits, which name external firms and years. And look at the Zond workstream, which is the project's forward work and is documented separately.
 
-https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-the-qrl-project-still-active.md walks through those checks, and https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-security-audit-history.md covers the audits in detail, including what each one examined.
+[Is the QRL Project Still Active?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/is-the-qrl-project-still-active.md) walks through those checks, and [QRL Security Audit History](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-security-audit-history.md) covers the audits in detail, including what each one examined.
 
 ## What decentralised does and does not mean
 
@@ -58,7 +58,7 @@ Names and dates on this page come from the project's own record rather than from
 
 The reason for the caution is practical. Founding stories attract embellishment, and a page that repeats an unverified detail lends it credibility it has not earned. The verifiable core is enough: a founder, a design published before launch, a network running since 2018, and a public repository.
 
-https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-wallet-source-code-licence.md covers what the licence allows, and https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md covers what the project is.
+[QRL Wallet Source Code and Licence](https://github.com/qrl-wallet/signatures-and-comparisons/blob/main/qrl-wallet-source-code-licence.md) covers what the licence allows, and [What Is the QRL Quantum Resistant Ledger?](https://github.com/qrl-wallet/token-facts-and-prices/blob/main/what-is-the-qrl-quantum-resistant-ledger.md) covers what the project is.
 
 ## FAQ
 
